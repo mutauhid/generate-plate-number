@@ -73,7 +73,7 @@ DB_NAME=db_social_gathering //your database name
 ```
 
 - Request : `GET`
-- Endpoint : '/api/regency`
+- Endpoint : `/api/regency`
 - Response :
 
 ```json
@@ -192,7 +192,7 @@ DB_NAME=db_social_gathering //your database name
     "regency_id" : 3,
     "vehicle_id" : 2
 }
-
+```
 - Response
 ```json
 {
