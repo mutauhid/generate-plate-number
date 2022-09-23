@@ -185,31 +185,33 @@ DB_NAME=db_social_gathering //your database name
 - Endpoint : `/api/tnkb`
 - Body
 
-````json
-{
-    "name" : "Taufik",
-    "address" : "Kalisari",
-    "regency_id" : 3,
-    "vehicle_id" : 2
-}
-```
-- Response
 ```json
 {
-    "code": 200,
-    "msg": "SUCCES",
-    "data": {
-        "id": 1,
-        "name": "Taufik",
-        "address": "Kalisari",
-        "no_plat": "B 6833 BSV",
-        "regency_id": 3,
-        "vehicle_id": 2,
-        "startdate": "2022-09-22T17:00:00.000Z",
-        "expireddate": "2027-09-22T17:00:00.000Z"
-    }
+  "name": "Taufik",
+  "address": "Kalisari",
+  "regency_id": 3,
+  "vehicle_id": 2
 }
-````
+```
+
+- Response
+
+```json
+{
+  "code": 200,
+  "msg": "SUCCES",
+  "data": {
+    "id": 1,
+    "name": "Taufik",
+    "address": "Kalisari",
+    "no_plat": "B 6833 BSV",
+    "regency_id": 3,
+    "vehicle_id": 2,
+    "startdate": "2022-09-22T17:00:00.000Z",
+    "expireddate": "2027-09-22T17:00:00.000Z"
+  }
+}
+```
 
 - Request : `GET`
 - Endpoint : '/api/vehicle`
